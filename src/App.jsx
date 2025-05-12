@@ -1,4 +1,5 @@
 import CountdownTimer from "./CountdownTimer";
+import WeddingInvite from "./WeddingInvite";
 import "./App.css";
 
 function App() {
@@ -30,18 +31,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="timer_component">
-          <CountdownTimer />
-        </div>
       </div>
-      {/* toast start */}
-      {/* <div className="toast">
-        <p>
-          To love that grows, laughter that lasts, and a lifetime of happiness.
-          Cheers!
-        </p>
-      </div> */}
-      {/* toast end */}
+      <CountdownTimer />
+      <WeddingInvite />
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.wedding-container {
+  background-image: url("/hero2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(252, 142, 172, 0.85);
+  background-blend-mode: darken;
+  min-height: 80vh;
+}
+
+.overlay {
+  border-radius: 12px;
+  text-align: center;
+}
+
+.date-row {
+}
+
+.dot {
+}
+
+.content p {
+}
+
+.intro {
+}
+
+.invite {
+}
+
+.date {
+}
+
+.location {
+}
