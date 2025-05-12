@@ -1,0 +1,40 @@
+.counter_box {
+  background-color: #fcfbfb;
+  padding: 2rem;
+  text-align: center;
+  max-width: 40rem;
+  margin: auto;
+}
+
+.counter_box__contents .icon {
+  font-size: 1.5rem;
+  background-color: #fc8eac;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter_box__contents .title {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #fc8eac;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.counter {
+  font-size: 3rem;
+  margin-top: 1rem;
+  letter-spacing: 0.5rem;
+  font-family: "Georgia", serif;
+}
+
+.counter span {
+  color: #e3e1e1;
+}
