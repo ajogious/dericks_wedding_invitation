@@ -4,7 +4,7 @@ import { faStopwatch } from "@fortawesome/free-solid-svg-icons";
 import "./CountdownTimer.css";
 
 function CountdownTimer() {
-  const targetDate = new Date("2025-05-29T00:00:00");
+  const targetDate = new Date("2025-06-28T00:00:00");
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
@@ -34,7 +34,7 @@ function CountdownTimer() {
         <div className="icon">
           <FontAwesomeIcon icon={faStopwatch} />
         </div>
-        <div className="title">Countdown to 29th May</div>
+        <div className="title">Countdown to 28th June</div>
         <div className="counter">
           {String(timeLeft.days).padStart(2, "0")}
           <span>D </span>

@@ -7,16 +7,16 @@ function App() {
       <div className="hero container-fluid">
         <div className="content_box">
           <p>Please join us to celebrate</p>
-          <h1 className="mt-2">Chioma & Benjamin</h1>
-          <h5>May 29th, 2025 - Awgu, Enugu</h5>
+          <h1 className="mt-2">Blessing & Daniel</h1>
+          <h5>28th June 2025 - Abuja, Nigeria</h5>
         </div>
       </div>
       <div className="container-fluid story_wrapper">
         <div className="story">
           <h2>Our Story</h2>
           <p>
-            It all started with a simple hello… and now, we’re here, ready to
-            say “I do.” We can’t wait to share this special moment with you!
+            It all started with a simple hello.. and now, we are here ready to
+            say “I do”. We can’t wait to share this special moment with you!
           </p>
           <div className="img_box">
             <div className="img_box__outer">
