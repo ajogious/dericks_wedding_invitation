@@ -1,0 +1,108 @@
+/* Timeline.css */
+
+.timeline {
+  padding: 5rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.timeline h2 {
+  font-size: 6rem;
+  font-family: "Alegreya", serif;
+  letter-spacing: 0.5rem;
+  color: #fc8eac;
+  margin-bottom: 2rem;
+}
+
+.timeline .p1 {
+  font-family: "Bilbo", cursive;
+  margin-top: -3.3rem;
+  font-size: 4rem;
+  color: #fc8eac;
+}
+
+.timeline .p2 {
+  font-family: "Alegreya", serif;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.2rem;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  color: #333;
+}
+
+/* Timeline Item Card */
+.card {
+  background-color: rgba(252, 141, 171, 0.1);
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.card_body {
+  font-size: 2rem;
+  color: #fc8eac;
+}
+
+.card__body2 {
+  flex: 1;
+  padding-left: 1.5rem;
+}
+
+.card__body3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Design for smaller devices */
+@media (max-width: 768px) {
+  .timeline h2 {
+    font-size: 4rem;
+  }
+
+  .timeline .p1 {
+    font-size: 3rem;
+  }
+
+  .timeline .p2 {
+    font-size: 1.3rem;
+  }
+
+  .card-body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card_body {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .card__body2 {
+    width: 100%;
+  }
+
+  .card__body3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline h2 {
+    font-size: 3rem;
+  }
+
+  .timeline .p1 {
+    font-size: 2.5rem;
+  }
+
+  .timeline .p2 {
+    font-size: 1.2rem;
+  }
+}

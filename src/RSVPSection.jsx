@@ -1,6 +1,6 @@
 import RSVPCard from "./RSVPCard";
 import "./RSVP.css";
-// import flower from "./flower.svg"; // Still using flower SVG
+import "./RSVPSection.css";
 
 const RSVPSection = ({ rsvps }) => {
   return (

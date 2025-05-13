@@ -1,17 +1,18 @@
 .counter_box {
   background-color: #fcfbfb;
-  padding: 2rem;
+  padding: 30rem 2rem 4rem;
   text-align: center;
-  max-width: 40rem;
+  max-width: 90%;
   margin: auto;
+  /* border-radius: 1rem; */
 }
 
 .counter_box__contents .icon {
-  font-size: 1.5rem;
+  font-size: 4rem;
   background-color: #fc8eac;
   color: white;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   margin: auto;
   border-radius: 50%;
   display: flex;
@@ -20,16 +21,17 @@
 }
 
 .counter_box__contents .title {
-  margin-top: 0.5rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   font-weight: bold;
   color: #fc8eac;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .counter {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 1rem;
   letter-spacing: 0.5rem;
   font-family: "Georgia", serif;
@@ -37,4 +39,107 @@
 
 .counter span {
   color: #e3e1e1;
+}
+
+/* Countdown Styles */
+.countdown {
+  background-color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+}
+
+.countdown h2 {
+  font-family: "Alegreya", serif;
+  font-size: 3.5rem;
+  color: #fc8eac;
+  margin-bottom: 2rem;
+}
+
+.countdown .time-box {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.time-box div {
+  font-family: "Alegreya", serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding: 1.2rem 2.5rem;
+  border: 2px solid #fc8eac;
+  border-radius: 1rem;
+  color: #333;
+  background: rgba(252, 141, 171, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .counter_box {
+    padding: 6rem 2rem 2rem;
+  }
+
+  .counter_box__contents .icon {
+    font-size: 3.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .counter_box__contents .title {
+    font-size: 1.8rem;
+  }
+
+  .counter {
+    font-size: 3.5rem;
+  }
+
+  .countdown h2 {
+    font-size: 2.8rem;
+  }
+
+  .countdown .time-box {
+    gap: 2rem;
+  }
+
+  .time-box div {
+    font-size: 2.2rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .counter_box {
+    padding: 5rem 1rem;
+  }
+
+  .counter_box__contents .icon {
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .counter_box__contents .title {
+    font-size: 1.6rem;
+  }
+
+  .counter {
+    font-size: 3rem;
+  }
+
+  .countdown h2 {
+    font-size: 2.4rem;
+  }
+
+  .countdown .time-box {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .time-box div {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
 }

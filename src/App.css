@@ -1,24 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bilbo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bilbo&display=swap");
-/* .bilbo-regular {
-  font-family: "Bilbo", cursive;
-  font-weight: 400;
-  font-style: normal;
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+
+/* Theme Colors */
+:root {
+  --gold: #ffd700;
+  --emerald: #50c878;
+  --white: #ffffff;
+  --pink: #fc8eac;
+  --shadow: rgba(0, 0, 0, 0.1);
 }
-.alegreya-<uniquifier> {
-  font-family: "Alegreya", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-/* Gold: #FFD700
-
-Emerald Green: #50C878
-
-White: #FFFFFF
-
-Flamingo Pink: #FC8EAC */
 
 * {
   margin: 0;
@@ -31,202 +21,115 @@ html {
 }
 
 body {
+  font-family: "Alegreya", serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
   scroll-behavior: smooth;
+  background-color: var(--white);
+  color: #333;
 }
 
+/* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url("/hero.png");
+  background-image: url("/pre_wedding_pix.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.wrapper .toast {
-  background-color: #fc8eac; /* Example: Flamingo Pink */
-  color: #fff;
-  padding: 1rem;
   text-align: center;
-  font-weight: bold;
-  border-radius: 8px;
-  margin-top: 1rem;
-}
-
-.content_box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  color: #fff;
-  padding-top: calc(100vh - 27rem);
-}
-
-.content_box p,
-.footer_box p {
-  font-size: 2rem;
-  font-family: "Bilbo", cursive;
-  color: #fc8eac;
-}
-
-.content_box h1,
-.footer_box h1 {
-  font-size: 4rem;
-  font-family: "Alegreya", serif;
-}
-
-.content_box h5,
-.footer_box h5 {
-  font-size: 2rem;
-  font-family: "Alegreya", serif;
-}
-
-.story {
-  height: 130vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 5rem;
-  background-color: #fcfbfb;
-}
-
-.story h2 {
-  font-size: 4rem;
-  font-family: "Alegreya", serif;
-}
-
-.story p {
-  font-size: 2rem;
-  font-family: "Alegreya", serif;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.img_box {
-  display: flex;
   justify-content: center;
-  align-items: center;
   padding: 2rem;
 }
 
-.img_box__outer {
-  width: 500px;
-  height: 500px;
-  background-color: black;
-  border-radius: 50% / 10%;
-  position: relative;
-  padding: 0.5rem;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
 }
 
-.img_box__inner {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: white;
-  border-radius: 50% / 10%;
+/* Toast */
+.wrapper .toast {
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 1.2rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0.8rem;
+  margin: 1.5rem auto;
+  max-width: 90%;
+  font-size: 1.4rem;
 }
 
-.img_box__1 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50% / 10%;
-  display: block;
-}
-
-.card {
-  background-color: rgba(252, 141, 171, 0.332);
-  padding: 1.5rem;
-  border-radius: 2rem;
-  border: 0.1rem solid #fc8eac !important;
-}
-
-.card .card_body {
-  background-color: rgba(252, 141, 171, 0.062);
-  width: 3.5rem;
-  height: 3.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 1px solid #fc8eac;
-  margin-right: 6rem !important;
-}
-
-.card .card_body i {
-  color: #000;
-  font-weight: 500;
-}
-
-.card .card__body2 {
-  text-align: left;
-  margin-right: 6rem;
-  width: 10rem;
-}
-
-.card .card-body h6,
-.card .card__body3 {
-  font-size: 1.5rem;
-  font-family: "Alegreya", serif;
-}
-
-.card .card-body p {
-  font-weight: 500;
-  font-family: "Alegreya", serif;
-}
-
-.timeline h2 {
-  font-size: 6rem !important;
-  font-family: "Alegreya", serif;
-  letter-spacing: 0.5rem;
-  color: #fc8eac;
-}
-
-.timeline .p1 {
-  font-family: "Bilbo", cursive;
-  margin-top: -3.3rem;
-  font-size: 4rem !important;
-}
-
-.timeline .p2 {
-  font-family: "Alegreya", serif;
-  letter-spacing: 0.2rem;
-  word-spacing: 0.2rem;
-  font-size: 1.5rem;
-  margin-top: 0 !important;
-  margin-bottom: 4rem;
-}
-
-.footer_hero {
-  height: 100vh;
-  background-image: url("/footer.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.footer_hero .footer_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
-  padding-top: 10rem;
-}
-
+/* Sticky Message */
 .sticky-message {
   position: fixed;
-  top: 3rem;
+  top: 2rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999;
-
-  background: rgba(238, 136, 64, 0.7); /* Transparent orange */
-  padding: 1rem 2rem;
+  background: rgba(238, 136, 64, 0.8);
+  padding: 1rem 2.5rem;
   border-radius: 2rem;
-  width: fit-content;
   max-width: 90%;
-  font-family: "Alegreya", serif;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: white;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px var(--shadow);
   border: 1px solid orange;
+}
+
+/* Responsive Typography */
+h1,
+h2,
+h3 {
+  font-family: "Bilbo", cursive;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero {
+    padding: 3rem 1.5rem;
+    background-position: top center;
+  }
+
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .sticky-message {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    top: 1rem;
+  }
+
+  .wrapper .toast {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .sticky-message {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .wrapper .toast {
+    font-size: 1rem;
+  }
 }

@@ -40,8 +40,13 @@ const ColorOfTheDay = () => {
           />{" "}
           {/* Emerald Green */}
           <div
-            className="color-circle"
+            className="color-circle mb-3"
             style={{ backgroundColor: "#FFFFFF", border: "1px solid #ccc" }}
+          />{" "}
+          {/* White */}
+          <div
+            className="color-circle"
+            style={{ backgroundColor: "#FC8EAC", border: "1px solid #ccc" }}
           />{" "}
           {/* White */}
         </div>
@@ -85,6 +90,19 @@ const ColorOfTheDay = () => {
             style={{ fontFamily: "'Alegreya', serif", fontSize: "1.5rem" }}
           >
             White
+          </small>
+        </div>
+        <div className="legend-item">
+          <div
+            className="legend-color border"
+            style={{
+              backgroundColor: "#FC8EAC",
+            }}
+          ></div>
+          <small
+            style={{ fontFamily: "'Alegreya', serif", fontSize: "1.5rem" }}
+          >
+            Flamingo Pink
           </small>
         </div>
       </div>

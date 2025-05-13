@@ -1,3 +1,5 @@
+import "./HeroSection.css";
+
 const HeroSection = ({
   coupleName,
   dateLocation,

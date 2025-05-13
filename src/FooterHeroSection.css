@@ -1,0 +1,87 @@
+.footer_hero {
+  height: 100vh;
+  background-image: url("/pre_wedding_pix.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fc8eac !important;
+  background-blend-mode: darken;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.footer_hero .footer_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding-top: 10rem;
+  max-width: 90%;
+  margin: auto;
+}
+
+.footer_hero .footer_box h1 {
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer_hero .footer_box h3 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-family: "Alegreya", serif;
+}
+
+/* TimeOnly component styles */
+.footer_hero .footer_box .time {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer_hero {
+    padding: 4rem 2rem;
+  }
+
+  .footer_hero .footer_box {
+    padding-top: 4rem;
+  }
+
+  .footer_hero .footer_box h1 {
+    font-size: 3.2rem;
+    letter-spacing: 1rem;
+  }
+
+  .footer_hero .footer_box h3 {
+    font-size: 2rem;
+  }
+
+  .footer_hero .footer_box .time {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer_hero .footer_box {
+    padding-top: 2rem;
+  }
+
+  .footer_hero .footer_box h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .footer_hero .footer_box h3 {
+    font-size: 1.8rem;
+  }
+
+  .footer_hero .footer_box .time {
+    font-size: 2rem;
+  }
+}

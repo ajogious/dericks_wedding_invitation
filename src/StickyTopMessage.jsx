@@ -1,7 +1,8 @@
-const StickyTopMessage = ({ message }) => {
+const StickyTopMessage = ({ message, slogan }) => {
   return (
     <div className="sticky-message text-white fw-semibold text-center">
-      {message}
+      <div>{message}</div>
+      <div>{slogan}</div>
     </div>
   );
 };

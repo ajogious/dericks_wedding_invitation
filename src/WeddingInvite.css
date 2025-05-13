@@ -1,3 +1,5 @@
+/* WeddingInvite.css */
+
 .wedding-container {
   background-image: url("/hero2.png");
   background-size: cover;
@@ -12,15 +14,15 @@
   border-radius: 12px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
-  height: 80vh;
+  height: 100%; /* Full height of the container */
   font-family: "Alegreya", serif;
   font-weight: 600;
+  text-align: center;
 }
 
 .content {
-  text-align: center;
+  color: white; /* Ensure the text contrasts against the background */
 }
 
 .date-row {
@@ -38,22 +40,73 @@
 
 .content p {
   font-size: 1.7rem;
+  margin: 0;
 }
 
 .intro,
 .invite {
   letter-spacing: 0.2rem;
   word-spacing: 0.2rem;
+  font-weight: bold; /* Make the text stand out */
 }
 
 .date {
   letter-spacing: 0.5rem;
   word-spacing: 0.5rem;
   padding-bottom: 3rem;
+  font-size: 2.2rem;
 }
 
-div .location {
+.location {
   font-size: 2.2rem;
   letter-spacing: 0.2rem;
   word-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .date-row {
+    font-size: 4rem; /* Adjust the date size for smaller screens */
+  }
+
+  .intro,
+  .invite {
+    font-size: 1.5rem;
+  }
+
+  .date {
+    font-size: 1.8rem;
+  }
+
+  .location {
+    font-size: 1.8rem;
+  }
+
+  .wedding-container {
+    min-height: 60vh; /* Reduce the height on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .date-row {
+    font-size: 3rem; /* Further reduce the font size */
+  }
+
+  .intro,
+  .invite {
+    font-size: 1.3rem;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .location {
+    font-size: 1.5rem;
+  }
+
+  .wedding-container {
+    min-height: 50vh; /* Adjust the height on very small screens */
+  }
 }

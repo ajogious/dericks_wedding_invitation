@@ -1,5 +1,6 @@
 .color_day {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 4rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,36 +8,88 @@
 }
 
 .color-card {
-  width: 330px;
-  height: 400px;
-  /* background: linear-gradient(to bottom right, #f8f9fa, #fbeec1); */
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 1 / 1;
   background-image: url("/flower.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: 2px solid #f5a623;
-  /* border: 2px solid #fc8eac; */
-  border-radius: 5rem !important;
+  border-radius: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .color-circle {
-  width: 90px;
-  height: 90px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   border: 0.3rem solid #fff;
+  margin-bottom: 1.2rem;
 }
 
 .legend-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 1.5rem;
 }
 
 .legend-color {
-  width: 10rem;
-  height: 10px;
-  margin-bottom: 5px;
+  width: 8rem;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Responsive typography & layout */
+@media (max-width: 768px) {
+  .color_day {
+    padding: 2rem 1rem;
+  }
+
+  .color-card {
+    max-width: 300px;
+    padding: 1.5rem;
+    border-radius: 3rem;
+  }
+
+  .color-circle {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .legend-item {
+    margin: 0 1rem;
+  }
+
+  .legend-color {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .color-card {
+    max-width: 260px;
+    padding: 1.2rem;
+    border-radius: 2rem;
+  }
+
+  .color-circle {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .legend-color {
+    width: 5rem;
+  }
+
+  .legend-item small {
+    font-size: 1.3rem;
+  }
 }

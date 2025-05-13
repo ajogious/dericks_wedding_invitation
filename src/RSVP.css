@@ -1,16 +1,20 @@
+/* RSVP.css */
+
 .rsvp-card {
   background-color: #fff5ee;
   border: 1px solid #f5c093;
+  padding: 2rem;
+  border-radius: 1.5rem;
 }
 
 .rsvp-title h2 {
   font-size: 6rem;
   font-weight: 400 !important;
+  letter-spacing: 0.2rem;
 }
 
 .avatar-icon {
   font-size: 10rem;
-  /* color: #f5c093; */
   color: #ff7f50;
 }
 
@@ -22,4 +26,119 @@
   font-size: 1.3rem;
   font-family: "Alegreya", serif;
   letter-spacing: 0.4rem;
+}
+
+/* RSVPSection.css */
+
+.rsvp-container {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.rsvp-container h2 {
+  font-family: "Alegreya", serif;
+  font-size: 3.5rem;
+  color: #fc8eac;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: rgba(252, 141, 171, 0.332);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #fc8eac !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 1rem 0;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card_body {
+  background-color: rgba(252, 141, 171, 0.062);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fc8eac;
+}
+
+.card .card_body i {
+  color: #000;
+  font-weight: 500;
+}
+
+.card__body2 {
+  text-align: left;
+  width: 10rem;
+}
+
+.card-body h6,
+.card__body3 {
+  font-size: 1.5rem;
+  font-family: "Alegreya", serif;
+}
+
+.card-body p {
+  font-weight: 500;
+  font-family: "Alegreya", serif;
+}
+
+/* Responsive Design for smaller devices */
+@media (max-width: 768px) {
+  .rsvp-title h2 {
+    font-size: 4rem;
+  }
+
+  .rsvp-card {
+    padding: 1.5rem;
+  }
+
+  .avatar-icon {
+    font-size: 8rem;
+  }
+
+  .rsvp-decor {
+    height: 80px;
+  }
+
+  .rsvp-container h2 {
+    font-size: 2.8rem;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .rsvp-title h2 {
+    font-size: 3.2rem;
+  }
+
+  .avatar-icon {
+    font-size: 7rem;
+  }
+
+  .rsvp-decor {
+    height: 60px;
+  }
+
+  .rsvp-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .card-body h6 {
+    font-size: 1.3rem;
+  }
 }

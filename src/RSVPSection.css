@@ -1,0 +1,61 @@
+/* RSVPSection.css */
+
+.rsvp-container {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.rsvp-container h2 {
+  font-family: "Alegreya", serif;
+  font-size: 3.5rem;
+  color: #fc8eac;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: rgba(252, 141, 171, 0.332);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #fc8eac !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin: 1rem 0;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card_body {
+  background-color: rgba(252, 141, 171, 0.062);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fc8eac;
+}
+
+.card .card_body i {
+  color: #000;
+  font-weight: 500;
+}
+
+.card__body2 {
+  text-align: left;
+  width: 10rem;
+}
+
+.card-body h6,
+.card__body3 {
+  font-size: 1.5rem;
+  font-family: "Alegreya", serif;
+}
+
+.card-body p {
+  font-weight: 500;
+  font-family: "Alegreya", serif;
+}

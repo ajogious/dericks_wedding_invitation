@@ -1,0 +1,86 @@
+/* HeroSection.css */
+
+.content_box,
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 0 2rem; /* Ensures padding on smaller screens */
+}
+
+.content_box {
+  padding-top: calc(100vh - 27rem); /* Adjusted for larger screens */
+}
+
+.footer_box {
+  padding-top: 10rem;
+}
+
+.content_box p,
+.footer_box p {
+  font-size: 2.5rem;
+  font-family: "Bilbo", cursive;
+  color: #fc8eac;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px #000;
+  text-align: center;
+}
+
+.content_box h1,
+.footer_box h1 {
+  font-size: 4rem;
+  font-family: "Alegreya", serif;
+  text-align: center;
+}
+
+.content_box h5,
+.footer_box h5 {
+  font-size: 2rem;
+  font-family: "Alegreya", serif;
+  text-align: center;
+}
+
+/* Responsive Design for smaller devices */
+@media (max-width: 768px) {
+  .content_box p,
+  .footer_box p {
+    font-size: 2rem;
+  }
+
+  .content_box h1,
+  .footer_box h1 {
+    font-size: 3rem;
+  }
+
+  .content_box h5,
+  .footer_box h5 {
+    font-size: 1.8rem;
+  }
+
+  .content_box {
+    padding-top: calc(100vh - 22rem); /* Adjust for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .content_box p,
+  .footer_box p {
+    font-size: 1.8rem;
+  }
+
+  .content_box h1,
+  .footer_box h1 {
+    font-size: 2.8rem;
+  }
+
+  .content_box h5,
+  .footer_box h5 {
+    font-size: 1.5rem;
+  }
+
+  .content_box {
+    padding-top: calc(100vh - 18rem); /* More padding adjustments */
+  }
+}
