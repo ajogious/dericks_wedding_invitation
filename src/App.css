@@ -218,7 +218,7 @@ body {
   transform: translateX(-50%);
   z-index: 9999;
 
-  background: rgba(238, 136, 64, 0.7); /* Soft transparent orange */
+  background: rgba(238, 136, 64, 0.7); /* Transparent orange */
   padding: 1rem 2rem;
   border-radius: 2rem;
   width: fit-content;
