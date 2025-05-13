@@ -9,17 +9,17 @@ const WeddingInvite = () => {
       }}
     >
       <div className="overlay">
-        <div className="date-row">
-          <span>28</span>
-          <span className="dot">•</span>
-          <span>06</span>
-          <span className="dot">•</span>
-          <span>25</span>
-        </div>
         <div className="content">
           <p className="intro">TOGETHER WITH THEIR FAMILIES</p>
           <p className="invite">REQUEST THE PLEASURE OF YOUR COMPANY</p>
           <p className="invite">TO CELEBRATE THEIR WEDDING</p>
+          <div className="date-row">
+            <span>28</span>
+            <span className="dot">•</span>
+            <span>06</span>
+            <span className="dot">•</span>
+            <span>25</span>
+          </div>
           <p className="date">THURSDAY 28TH JUNE, 2025</p>
           <p className="location">Enugu Ife Mgbidi Awgu LG</p>
           <p className="location">Enugu State</p>

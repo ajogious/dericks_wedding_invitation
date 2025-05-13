@@ -10,26 +10,48 @@
 
 .overlay {
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  height: 80vh;
+  font-family: "Alegreya", serif;
+  font-weight: 600;
+}
+
+.content {
   text-align: center;
 }
 
 .date-row {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 6rem;
 }
 
 .dot {
+  font-size: 6rem;
 }
 
 .content p {
+  font-size: 1.7rem;
 }
 
-.intro {
-}
-
+.intro,
 .invite {
+  letter-spacing: 0.2rem;
+  word-spacing: 0.2rem;
 }
 
 .date {
+  letter-spacing: 0.5rem;
+  word-spacing: 0.5rem;
+  padding-bottom: 3rem;
 }
 
 .location {
+  font-size: 6rem;
 }
