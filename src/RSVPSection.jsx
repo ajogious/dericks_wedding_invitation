@@ -12,7 +12,7 @@ const RSVPSection = ({ rsvps }) => {
       </div>
 
       <div className="container">
-        <div className="row justify-content-center col-4 m-auto">
+        <div className="row justify-content-center col-8 m-auto">
           {rsvps.map((person, idx) => (
             <div key={idx} className="col-md-6 mb-4">
               <RSVPCard
