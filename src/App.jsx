@@ -1,8 +1,17 @@
 import CountdownTimer from "./CountdownTimer";
 import WeddingInvite from "./WeddingInvite";
 import "./App.css";
+import Timeline from "./Timeline";
+import ColorOfTheDay from "./ColorOfTheDay";
+import RSVPSection from "./RSVPSection";
 
 function App() {
+  const rsvpData = [
+    { icon: "bi-person-circle", name: "Mr. Prosper", phone: "0703 788 7513" },
+    { icon: "bi-person-circle", name: "Mr. Ralph", phone: "0813 564 9811" },
+    { icon: "bi-person-circle", name: "Mr. Elo", phone: "0813 104 3143" },
+    { icon: "bi-person-fill", name: "Mrs. Adeshina", phone: "0805 350 1929" },
+  ];
   return (
     <div className="wrapper">
       <div className="hero container-fluid">
@@ -34,6 +43,11 @@ function App() {
       </div>
       <CountdownTimer />
       <WeddingInvite />
+      <Timeline />
+      <ColorOfTheDay />
+      <br />
+      <br />
+      <RSVPSection rsvps={rsvpData} />;<div className="footer"></div>
     </div>
   );
 }

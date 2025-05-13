@@ -1,0 +1,25 @@
+.rsvp-card {
+  background-color: #fff5ee;
+  border: 1px solid #f5c093;
+}
+
+.rsvp-title h2 {
+  font-size: 6rem;
+  font-weight: 400 !important;
+}
+
+.avatar-icon {
+  font-size: 10rem;
+  /* color: #f5c093; */
+  color: #ff7f50;
+}
+
+.rsvp-decor {
+  height: 100px;
+}
+
+.rsvp-card div {
+  font-size: 1.3rem;
+  font-family: "Alegreya", serif;
+  letter-spacing: 0.4rem;
+}

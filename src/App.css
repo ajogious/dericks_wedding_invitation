@@ -32,7 +32,7 @@ html {
 
 .hero {
   height: 100vh;
-  background-image: url("hero.png");
+  background-image: url("/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,4 +123,75 @@ html {
   object-fit: cover;
   border-radius: 50% / 10%;
   display: block;
+}
+
+.card {
+  background-color: rgba(252, 141, 171, 0.332);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #fc8eac !important;
+}
+
+.card .card_body {
+  background-color: rgba(252, 141, 171, 0.062);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fc8eac;
+  margin-right: 6rem !important;
+}
+
+.card .card_body i {
+  color: #000;
+  font-weight: 500;
+}
+
+.card .card__body2 {
+  text-align: left;
+  margin-right: 6rem;
+  width: 10rem;
+}
+
+.card .card-body h6,
+.card .card__body3 {
+  font-size: 1.5rem;
+  font-family: "Alegreya", serif;
+}
+
+.card .card-body p {
+  font-weight: 500;
+  font-family: "Alegreya", serif;
+}
+
+.timeline h2 {
+  font-size: 6rem !important;
+  font-family: "Alegreya", serif;
+  letter-spacing: 0.5rem;
+  color: #fc8eac;
+}
+
+.timeline .p1 {
+  font-family: "Bilbo", cursive;
+  margin-top: -3.3rem;
+  font-size: 4rem !important;
+}
+
+.timeline .p2 {
+  font-family: "Alegreya", serif;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.2rem;
+  font-size: 1.5rem;
+  margin-top: 0 !important;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  height: 100vh;
+  background-image: url("/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

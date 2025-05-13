@@ -20,9 +20,11 @@ const WeddingInvite = () => {
             <span className="dot">•</span>
             <span>25</span>
           </div>
-          <p className="date">THURSDAY 28TH JUNE, 2025</p>
-          <p className="location">Enugu Ife Mgbidi Awgu LG</p>
-          <p className="location">Enugu State</p>
+          <div>
+            <p className="date">THURSDAY 28TH JUNE, 2025</p>
+            <p className="location">Abuja, FCT</p>
+            <p className="location">Nigeria</p>
+          </div>
         </div>
       </div>
     </div>
