@@ -121,7 +121,8 @@ p {
   }
 
   .hero {
-    height: 80vh;
+    /* height: 80vh; */
+    padding: 0;
   }
 
   .sticky-message {
