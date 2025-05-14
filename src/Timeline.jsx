@@ -7,43 +7,43 @@ const Timeline = () => {
       icon: "bi-building",
       time: "10:00 AM",
       title: "Church Service",
-      description: "Music, gifts, prayers.",
+      // description: "Music, gifts, prayers.",
     },
     {
       icon: "bi-bell",
       time: "3:00 PM",
       title: "Guest Arrives At Reception",
-      description: "Music, gifts, prayers.",
+     // description: "Music, gifts, prayers.",
     },
     {
       icon: "bi-people",
       time: "3:30 PM",
       title: "Families Of The Couple Entrance",
-      description: "Blessings, Stories and wisdom.",
+     // description: "Blessings, Stories and wisdom.",
     },
     {
       icon: "bi-people",
       time: "4:00 PM",
       title: "Arrival Of The Couple",
-      description: "Entrance, Music, Dance.",
+     // description: "Entrance, Music, Dance.",
     },
     {
       icon: "bi-music-note-beamed",
       time: "5:00 PM",
       title: "Couple First Dance",
-      description: "Entrance, Music, Dance.",
+     // description: "Entrance, Music, Dance.",
     },
     {
       icon: "bi-cup-straw",
       time: "5:30 PM",
       title: "Fun Wedding Activities",
-      description: "Wine, search, unity.",
+     // description: "Wine, search, unity.",
     },
     {
       icon: "bi-emoji-smile",
       time: "6:30 PM",
       title: "After Party Begins",
-      description: "Food, drinks, joy.",
+     // description: "Food, drinks, joy.",
     },
   ];
 
@@ -64,7 +64,7 @@ const Timeline = () => {
             icon={event.icon}
             time={event.time}
             title={event.title}
-            description={event.description}
+           // description={event.description}
           />
         ))}
       </div>
