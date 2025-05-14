@@ -95,8 +95,8 @@ p {
 /* Media Queries */
 @media (max-width: 768px) {
   .hero {
-    padding: 3rem 1.5rem;
-    background-position: top center;
+    /* padding: 3rem 1.5rem; */
+    /* background-position: top center; */
   }
 
   .wrapper {
