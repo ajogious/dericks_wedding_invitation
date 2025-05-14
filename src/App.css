@@ -34,7 +34,7 @@ body {
   height: 100vh;
   background-image: url("/pre_wedding_pix.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   background-repeat: no-repeat;
   text-align: center;
   display: flex;
