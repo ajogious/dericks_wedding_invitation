@@ -32,7 +32,7 @@ function App() {
               sectionClass="hero"
               content_box="content_box"
               message="Please join us to celebrate"
-              coupleName="Blessing & Daniel"
+              coupleName="Blessing & Derick"
               dateLocation="28th June 2025 - Abuja, Nigeria"
             />
           </LazyBackground>
