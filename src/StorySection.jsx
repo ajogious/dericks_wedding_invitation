@@ -17,7 +17,7 @@ const StorySection = () => {
             <div className="img_box__inner">
               <LazyLoadImage
                 alt="pre wedding picture"
-                src="/pre_wedding_pix.jpg"
+                src="/story.jpg"
                 className="img_box__1 img-fluid"
               />
             </div>
