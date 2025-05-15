@@ -11,7 +11,7 @@ export const FooterHeroSection = () => {
           <HeroSection
             content_box="footer_box"
             message="Save The Date"
-            coupleName="Blessing & Daniel"
+            coupleName="Blessing & Derick"
             dateLocation="28th June 2025 - Abuja, Nigeria"
           />
           <TimeOnly targetDate="2025-06-28T00:00:00" />
