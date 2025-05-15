@@ -1,10 +1,10 @@
 .footer_hero {
   height: 100vh;
-  background-image: url("/pre_wedding_pix.jpg");
+  background-image: url("/pre_wedding_footer.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #fc8eac !important;
+  background-color: #00000066 !important;
   background-blend-mode: darken;
   text-align: center;
   display: flex;

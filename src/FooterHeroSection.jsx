@@ -6,7 +6,7 @@ import "./FooterHeroSection.css";
 export const FooterHeroSection = () => {
   return (
     <div className="footer_hero">
-      <LazyBackground className="footer_hero" bgImage="/pre_wedding_pix.jpg">
+      <LazyBackground className="footer_hero" bgImage="/pre_wedding_footer.JPG">
         <div className="footer_box">
           <HeroSection
             content_box="footer_box"
